@@ -9,3 +9,18 @@
 if [[ ( "$SHLVL" -eq 1 && ! -o LOGIN ) && -s "${ZDOTDIR:-$HOME}/.zprofile" ]]; then
   source "${ZDOTDIR:-$HOME}/.zprofile"
 fi
+
+export HOMEBREW_NO_ANALYTICS=1
+export PROMPT_DIRTRIM=2
+
+export GIT_AUTHOR_NAME='Michal Fojtik'
+export GIT_COMMITTER_NAME='Michal Fojtik'
+export GIT_AUTHOR_EMAIL='mfojtik@redhat.com'
+export GIT_COMMITTER_EMAIL='mfojtik@redhat.com'
+export CLICOLOR=1
+export EDITOR='vim'
+
+# This allow to test origin using unsupported go version
+export PERMISSIVE_GO=y
+
+
