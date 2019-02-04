@@ -85,5 +85,4 @@ function code {
     fi
 }
 
-alias ls="ls -lah"
 alias ack="rg"

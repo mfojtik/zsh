@@ -16,4 +16,6 @@ bindkey '^R' history-incremental-search-backward
 
 fpath=(/usr/local/share/zsh-completions $fpath)
 
-unsetopt CORRECT
+unsetopt correct
+unsetopt correctall
+DISABLE_CORRECTION="true"
