@@ -26,4 +26,8 @@ unsetopt correctall
 DISABLE_CORRECTION="true"
 
 export GITHUB_TOKEN=a4f2612586eb048000ce5a9361d50855cd5c31e9
+
 alias pr=~/bin/pr
+
+alias cat=bat -p
+export BAT_PAGER=""
