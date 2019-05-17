@@ -20,7 +20,9 @@ export GIT_COMMITTER_EMAIL='mfojtik@redhat.com'
 export CLICOLOR=1
 export EDITOR='vim'
 
+export DISABLE_CORRECTION="true"
+export ALWAYS_TO_END="true"
+export SHARE_HISTORY="true"
+
 # This allow to test origin using unsupported go version
 export PERMISSIVE_GO=y
-
-

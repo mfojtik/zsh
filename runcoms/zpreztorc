@@ -1,5 +1,6 @@
 zstyle ':prezto:*:*' case-sensitive 'yes'
 zstyle ':prezto:*:*' color 'yes'
+
 zstyle ':prezto:load' pmodule \
   'environment' \
   'terminal' \
@@ -11,15 +12,22 @@ zstyle ':prezto:load' pmodule \
   'utility' \
   'completion' \
   'git' \
-  'syntax-highlighting' \
   'history-substring-search' \
+  'homebrew' \
   'prompt'
+
 zstyle ':prezto:module:ssh:load' identities 'id_rsa' 
 zstyle ':prezto:module:editor' key-bindings 'vi'
 zstyle ':prezto:module:gnu-utility' prefix 'g'
 zstyle ':prezto:module:osx:man' dash-keyword 'manpages'
-zstyle ':prezto:module:prompt' theme 'sorin'
+
+zstyle ':prezto:module:prompt' theme 'damoekri'
 zstyle ':prezto:module:prompt' show-return-val 'no'
+
 zstyle ':prezto:module:terminal' auto-title 'yes'
 zstyle ':prezto:module:utility:ls' dirs-first 'no'
 zstyle ':prezto:module:utility:ls' color 'no'
+zstyle ':prezto:module:utility' correct 'no'
+
+zstyle ':prezto:module:history-substring-search' case-sensitive 'yes'
+
